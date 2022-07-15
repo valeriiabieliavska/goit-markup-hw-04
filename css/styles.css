@@ -316,12 +316,10 @@ p {
 .svg-social-list {
   display: flex;
   justify-content: center;
+    margin-top: 16px;
   gap: 10px;
 }
 
-.svg-social-item {
-  margin-top: 16px;
-}
 
 .svg-social {
   fill: currentColor;
@@ -392,7 +390,7 @@ p {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 70px;
 }
 
@@ -464,14 +462,9 @@ p {
   color: var(--white-color);
 
   margin-top: 0;
-  /* padding-top: 0; */
+  margin-bottom: 20px;
 }
 
-.social {
-  /* width: 206px;
-  height: 80px; */
-  padding-top: 15px;
-}
 
 .footer-social-list {
   display: flex;
